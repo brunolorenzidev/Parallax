@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.caixa {
+    height: 100vh;
+    width: 100%;
+}
+
+/* Section 1 */
+.banner,
+h1 {
+    transition: 0.6s;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    background-image: url("https://media.istockphoto.com/id/1162348545/pt/foto/red-car-driving-on-a-road.jpg?s=2048x2048&w=is&k=20&c=19b6QwCCB2ae8z09eWOCRFNoy5e6xEQTCgEebrizktg=");
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.banner h1 {
+    font-size: 50px;
+    color: #f9f9f9;
+}
+
+.container {
+    background: #ffffff;
+    padding: 60px 15%;
+    text-align: justify;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 1em;
+}
+
+/* Section 3 */
+.parallax2 {
+    background: url("https://media.istockphoto.com/id/182057878/pt/foto/quente-carro-desportivo.jpg?s=2048x2048&w=is&k=20&c=pPoXyX1rW6LFDNdGjVyJ97pXc1avufv0Jt21noKkk64=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #e21818;
+    z-index: 2;
+}
+
+/* Section 2 */
+
+img {
+    position: fixed;
+    z-index: 0;
+    transition: 0.3s;
+    z-index: 0;
+}
+
+body img:nth-child(1) {
+    width: 200px;
+    top: 0;
+}
+
+body img:nth-child(2) {
+    width: 400px;
+    left: 900px;
+    top: 0;
+    z-index: 0;
+}
+
+body img:nth-child(3) {
+    width: 200px;
+    bottom: 0;
+}
+
+body img:nth-child(4) {
+    width: 200px;
+    left: 600px;
+    bottom: 0;
+}
+
+body img:nth-child(5) {
+    width: 200px;
+    left: 250px;
+    top: 250px;
+}
+
+/* section 4 */
+.parallax4 {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    perspective: 1000px;
+    margin: 0;
+    padding: 0;
+    background-color: #ac0000;
+    z-index: 1;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 320px;
+    border-radius: 16px;
+    background: url("https://media.istockphoto.com/id/184292991/pt/foto/carro-desportivo-vermelho-no-fundo-preto-studio.jpg?s=2048x2048&w=is&k=20&c=f1sFgynW3WfBtsJ9I9gYxxb29ZYTrOi1Cjr6PTjnQ2Y=");
+    background-size: 110%;
+    background-position: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card p {
+    padding: 10px 30px;
+    margin-top: 160px;
+    border-radius: 50px;
+    border: 0;
+    background: #8f0000;
+    color: #f9f9f9;
+}
